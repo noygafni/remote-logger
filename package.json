@@ -1,5 +1,5 @@
 {
-  "name": "remote-logger",
+  "name": "remote-ui-logger",
   "version": "1.0.0",
   "description": "let you send client side logs to remote server",
   "main": "index.js",

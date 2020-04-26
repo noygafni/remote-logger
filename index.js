@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-class RemoteLogger {
+class RemoteUILogger {
     constructor(options) {
 
         if (!options || typeof options !== 'object') {
