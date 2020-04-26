@@ -31,7 +31,8 @@ class RemoteUILogger {
     log(level, message) {
         this.messages.push({
             level,
-            message
+            message,
+            time: new Date().getTime(),
         })
         if (this.messages.length >= this.batchSize) {
             this.send(this.messages);

@@ -1,6 +1,6 @@
 {
-  "name": "remote-ui-logger",
-  "version": "1.0.0",
+  "name": "@noygafni/remote-ui-logger",
+  "version": "1.0.1",
   "description": "let you send client side logs to remote server",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noygafni/remote-logger.git"
+    "url": "git+https://github.com/noygafni/remote-ui-logger.git"
   },
   "keywords": [
     "remote",
@@ -17,12 +17,15 @@
   "author": "Noy Gafni",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/noygafni/remote-logger/issues"
+    "url": "https://github.com/noygafni/remote-ui-logger/issues"
   },
-  "homepage": "https://github.com/noygafni/remote-logger#readme",
+  "homepage": "https://github.com/noygafni/remote-ui-logger#readme",
   "dependencies": {
   },
   "peerDependencies": {
     "axios": "^0.18.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
