@@ -57,4 +57,4 @@ class RemoteUILogger {
 
 }
 
-export default RemoteLogger;
+export default RemoteUILogger;
