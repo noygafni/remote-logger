@@ -1,0 +1,28 @@
+{
+  "name": "remote-logger",
+  "version": "1.0.0",
+  "description": "let you send client side logs to remote server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noygafni/remote-logger.git"
+  },
+  "keywords": [
+    "remote",
+    "logger"
+  ],
+  "author": "Noy Gafni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noygafni/remote-logger/issues"
+  },
+  "homepage": "https://github.com/noygafni/remote-logger#readme",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "axios": "^0.18.0"
+  }
+}
